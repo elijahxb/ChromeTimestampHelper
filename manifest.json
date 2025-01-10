@@ -1,0 +1,22 @@
+{
+  "name": "ChromeTimestampHelper",
+  "version": "1.0.2",
+  "description": "Effortlessly convert numeric timestamps into formatted dates with the Timestamp Helper plugin, streamlining your coding process in Visual Studio Code.",
+  "author": "Elijahxb",
+  "icons": {
+    "32": "img/clock-x32.png",
+    "64": "img/clock-x64.png",
+    "128": "img/clock-x128.png",
+    "256": "img/clock-x256.png",
+    "512": "img/clock-x512.png"
+  },
+  "permissions": [
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "manifest_version": 2
+}
