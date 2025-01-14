@@ -17,6 +17,16 @@ Developer-Friendly: Intuitive and easy to use, the Timestamp Helper plugin integ
 Enhance your development experience with the Timestamp Helper plugin for Visual Studio Code today!
 This description provides an overview of the plugin's functionality, its key features, and the benefits it offers to developers.
 
+# USAGE
+
+1. clone this repo  (克隆本仓库，并记录路径)
+
+```bash
+git clone https://github.com/elijahxb/ChromeTimestampHelper.git
+echo $PWD/ChromeTimestampHelper
+```
+
+2. Open Chrome browser `settings` -> `extensions` -> `load decompressed extensions` (打开谷歌浏览器 设置->扩展程序->加载已解压扩展程序)
 
 # Modified from following registry
 
