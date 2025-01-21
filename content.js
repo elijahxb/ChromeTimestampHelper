@@ -27,7 +27,7 @@ document.body.addEventListener("mouseup", e => {
             let date = new Date(num);
 
             dismissTooltip();
-            createTooltip(date.toISOString(), rect);
+            createTooltip(date.toLocaleString(), rect);
         } else {
             dismissTooltip();
         }
