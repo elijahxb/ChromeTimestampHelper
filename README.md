@@ -28,6 +28,6 @@ echo $PWD/ChromeTimestampHelper
 
 2. Open Chrome browser `settings` -> `extensions` -> `load decompressed extensions` (打开谷歌浏览器 设置->扩展程序->加载已解压扩展程序)
 
-# Modified from following registry
+# Modified from following repo
 
 https://github.com/InventivetalentDev/TimestampHelper
